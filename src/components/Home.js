@@ -8,7 +8,7 @@ import defaultImg from "../assets/default.png"
 import BasicInfo from "./ProfileInfo/BasicInfo";
 import Education from "./ProfileInfo/Education";
 import Experience from "./ProfileInfo/Experience";
-//ay shi lezm jibu mn lredux store module lezm a3ml distract
+//ay shi lezm jibu mn lredux store module lezm a3ml distract ...
 const Home=({
     getCurrentProfile,
     deleteEducation,
@@ -40,7 +40,7 @@ const Home=({
            {profile ===null?(
             <div>
                 <p style={{padding:10}}Please create a profile></p>
-                <Link to="/create-profile" className="btn btn-primary">Create Profile</Link>
+                <Link to="/create-profile" className="btn btn-primary">Create Profile.</Link>
             </div>
            ):(
             <div>
