@@ -1,5 +1,6 @@
 const SHOW_ALERT_MESSAGE ="alerts/SHOW_ALERT_MESS";//Define Actions
 //Action Creator fi b2albu dispatch 3a function m3ayne
+
 export function showAlertMessage(msg, type="info"){
     return function showAlertMessageThunk(dispatch){
       dispatch({
